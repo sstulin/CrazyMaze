@@ -33,6 +33,10 @@ function draw() {
   {
   b=b+(accelerationX-pAccelerationX)
   }
+  if (accelerationX <-.01)
+  {
+  b=b+(accelerationX-pAccelerationX)
+  }
  
   fill(0,0,255);
   ellipse(b,a,20,20);
