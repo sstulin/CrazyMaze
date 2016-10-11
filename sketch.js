@@ -23,7 +23,7 @@ function draw() {
   {
   a=a+(accelerationY-pAccelerationY)
   }
-  else {a=a-1;}
+  
   
   if (accelerationX >.01)
   {
