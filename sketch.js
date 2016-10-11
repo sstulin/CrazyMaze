@@ -18,8 +18,8 @@ function setup() {
 }
 
 function draw() {
-  a=a+accelerationX
-  b=b+accelerationY
+  a=a+(accelerationY-pAccelerationY)
+  b=b+(accelerationX-pAccelerationX)
   fill(0,0,255);
   ellipse(b,a,20,20);
   
