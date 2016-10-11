@@ -19,7 +19,7 @@ function setup() {
 
 function draw() {
   
-  if(accelerationY>.01, < -.01)
+  if(accelerationY>.01)
   {
   a=a+(accelerationY-pAccelerationY)
   }
