@@ -18,8 +18,18 @@ function setup() {
 }
 
 function draw() {
+  
+  if(accelerationY>1)
+  {
   a=a+(accelerationY-pAccelerationY)
+  }
+  else {a=a-1;}
+  
+  if (accelerationX >1)
+  {
   b=b+(accelerationX-pAccelerationX)
+  }
+  else {b=b-1;}
   fill(0,0,255);
   ellipse(b,a,20,20);
   
