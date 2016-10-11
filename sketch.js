@@ -23,13 +23,13 @@ function draw() {
   {
   a=a+(accelerationY-pAccelerationY)
   }
-  
+  else {a=a-1;}
   
   if (accelerationX >.01)
   {
   b=b+(accelerationX-pAccelerationX)
   }
-  else {b=b-1;}
+ 
   fill(0,0,255);
   ellipse(b,a,20,20);
   
